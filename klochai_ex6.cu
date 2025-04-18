@@ -113,7 +113,7 @@ int main() {
     double *a, *b, *eig;
     double *d_a, *d_b, *d_eig;
 
-    int dim[] = {5000, 6000, 8000, 10000, 11000, 12500};
+    int dim[] = {100, 1000, 2000, 3000, 5000, 6000, 8000, 10000, 12000};
     int len = (int) sizeof(dim) / sizeof(int);
     int trial = 5, execute = 100;
     clock_t start, stop;
